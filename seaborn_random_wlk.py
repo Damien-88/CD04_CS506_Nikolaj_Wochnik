@@ -42,8 +42,5 @@ plt.xlabel("X", labelpad = 20)
 # Label y-axis w/ padding & rotate for readability
 plt.ylabel("Y", rotation = 0, labelpad = 15)
 
-# Ensure plot aspect ratio is proportional
-plt.axis("equal")
-
 # Display plot
 plt.show()
